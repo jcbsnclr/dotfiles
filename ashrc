@@ -1,0 +1,18 @@
+export PATH="$PATH:$HOME/.local/bin"
+source "$HOME/.cargo/env"
+
+export EDITOR="/usr/bin/kak"
+
+# useful aliases
+alias kakrc='kak $HOME/.config/kak/kakrc'
+alias ashrc='kak $HOME/.ashrc'
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --colour=auto'
+
+alias code='code-oss'
+# reload fonts
+alias fcr='fc-cache -f -v'
+alias lwcd='cd $HOME/.config/labwc'
+alias wbr='killall -SIGUSR2 waybar'

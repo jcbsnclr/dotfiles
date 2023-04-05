@@ -1,0 +1,14 @@
+set global disabled_hooks .*-indent
+add-highlighter global/ number-lines -relative -hlcursor
+
+hook global WinSetOption filetype=(c|cpp) %{
+	set-option global c_include_guard_style none
+}
+
+# better indentation via '<'/'>' commands
+map global insert <tab> '<a-;><a-gt>'
+map global insert <s-tab> '<a-;><a-lt>'
+
+# enable lsp integration (broken for now)
+# eval %sh{kak-lsp --kakoune -s $kak_session}
+# lsp-enable
