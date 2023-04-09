@@ -12,9 +12,9 @@
   </core>
 
   <theme>
-    <name></name>
-    <cornerRadius>8</cornerRadius>
-    <font name="sans" size="10" />
+    <name>Obatross</name>
+    <!-- <cornerRadius>8</cornerRadius> -->
+    <!-- <font name="sans" size="10" /> -->
   </theme>
 
   <keyboard>
@@ -25,6 +25,7 @@
     </keybind>
     <keybind key="W-d">
       <action name="Execute" command="bemenu-run" />
+    </keybind>
   </keyboard>
 
   <mouse>
