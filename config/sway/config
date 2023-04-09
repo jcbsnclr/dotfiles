@@ -166,6 +166,11 @@ input * xkb_layout "gb"
     # Show the next scratchpad window or hide the focused scratchpad window.
     # If there are multiple scratchpad windows, this command cycles through them.
     bindsym $mod+minus scratchpad show
+
+bindsym Print exec grimshot copy screen 
+bindsym Shift+Print exec grimshot copy area
+bindsym Control+Shift+Print exec grimshot copy window
+
 #
 # Resizing containers:
 #
