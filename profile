@@ -13,4 +13,4 @@ if test -z "$XDG_RUNTIME_DIR"; then
     fi
 fi
 
-[ "$(tty)" == "/dev/tty1" ] && sway
+[ "$(tty)" == "/dev/tty1" ] && labwc
