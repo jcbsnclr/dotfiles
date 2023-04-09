@@ -15,4 +15,5 @@ alias code='code-oss'
 # reload fonts
 alias fcr='fc-cache -f -v'
 alias lwcd='cd $HOME/.config/labwc'
+alias dotfiles='cd $HOME/src/dotfiles'
 alias wbr='killall -SIGUSR2 waybar'
