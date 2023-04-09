@@ -13,7 +13,7 @@
 
   <theme>
     <name>Obatross</name>
-    <!-- <cornerRadius>8</cornerRadius> -->
+    <cornerRadius>0</cornerRadius>
     <!-- <font name="sans" size="10" /> -->
   </theme>
 
@@ -25,6 +25,17 @@
     </keybind>
     <keybind key="W-d">
       <action name="Execute" command="bemenu-run" />
+    </keybind>
+
+    <!-- screenshotting -->
+    <keybind key="Print">
+      <action name="Execute" command="grimshot copy screen" />
+    </keybind>
+    <keybind key="S-Print">
+      <action name="Execute" command="grimshot copy area" />
+    </keybind>
+    <keybind key="C-S-Print">
+      <action name="Execute" command="grimshot copy window" />
     </keybind>
   </keyboard>
 
