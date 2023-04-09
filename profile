@@ -7,7 +7,8 @@ fi
 
 FREETYPE_PROPERTIES="truetype:interpreter-version=35"
 GTK_OVERLAY_SCROLLING=0
-GT_QPA_PLATFORMTHEME=gtk2
+GTK_THEME=human-theme-blue
+QT_QPA_PLATFORMTHEME=gtk2
 
 if test -z "$XDG_RUNTIME_DIR"; then
     export XDG_RUNTIME_DIR=/tmp/$(id -u)-rt-dir
